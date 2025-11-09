@@ -1,0 +1,7 @@
+I am an Applications Developer and Data Integration Specialist with approximately 2 years of combined professional and co-op experience in software development, data engineering, and cloud integrations.
+
+My expertise includes C# .NET Core development, Python automation, ETL pipelines, Oracle Fusion Cloud integrations (ERP, HCM, EPM), and Azure DevOps deployment using Functions and CI/CD pipelines.
+
+Currently, I’m focused on building and optimizing cloud-native ETL solutions that synchronize data between Oracle Fusion and various SaaS platforms, as well as exploring AI-driven automation using Python, FastAPI, and LangChain.
+
+My background includes developing enterprise-grade integrations, GPU-accelerated Python pipelines using RAPIDS, and automation tools that have streamlined data conversion and reduced manual effort across multiple client implementations.
