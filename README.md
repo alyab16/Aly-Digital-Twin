@@ -57,18 +57,38 @@ The application maintains conversation memory across sessions, stores it locally
 
 ```
 .
-├── server.py             # FastAPI backend using AWS Bedrock
-├── resources.py          # Loads profile data (LinkedIn, summary, style, facts)
-├── data/
+├── backend/
+│   ├── __pycache__/
+│   ├── .venv/
+│   ├── data/
+│   ├── lambda-package/
+│   ├── .env
+│   ├── .python-version
+│   ├── context.py
+│   ├── deploy.py
+│   ├── lambda_handler.py
+│   ├── lambda-deployment.zip
 │   ├── linkedin.pdf
-│   ├── summary.txt
-│   ├── style.txt
-│   └── facts.json
-├── app/
-│   ├── layout.tsx        # Root layout with Geist fonts
-│   ├── page.tsx          # Home page with Twin component
-│   └── components/twin/  # React component rendering the AI Twin
-├── .env                  # Environment variables (local)
+│   ├── me.txt
+│   ├── pyproject.toml
+│   ├── requirements.txt
+│   ├── resources.py
+│   ├── server.py
+│   └── uv.lock
+│
+├── frontend/
+│   ├── .next/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   ├── node_modules/
+│   ├── out/
+│   ├── public/
+│   ├── .env.production
+│   ├── .gitignore
+│   └── eslint.config.mjs
 ├── terraform/            # Infrastructure configuration
 └── .github/workflows/    # CI/CD pipeline for build + deploy
 ```
@@ -96,11 +116,6 @@ The application maintains conversation memory across sessions, stores it locally
 | `S3_BUCKET` | S3 bucket name | `digital-twin-memory` |
 | `CORS_ORIGINS` | Allowed CORS domains | `http://localhost:3000` |
 | `MEMORY_DIR` | Local directory for memory | `../memory` |
-
-### Example API Call
-```bash
-curl -X POST https://<api-endpoint>/chat   -H "Content-Type: application/json"   -d '{"message": "Hello!", "session_id": "test123"}'
-```
 
 ---
 
