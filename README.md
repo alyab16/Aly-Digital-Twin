@@ -1,5 +1,5 @@
 # 🧠 Aly Abdelwahed Digital Twin
-**AI in Production — Powered by AWS Bedrock, FastAPI, and Next.js**
+**AI in Production - Powered by AWS Bedrock, FastAPI, and Next.js**
 
 ![Deployment](https://img.shields.io/badge/Deployed-AWS%20CloudFront-blue)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-success)
