@@ -1,166 +1,222 @@
 {
-    "full_name": "Aly Abdelwahed",
-    "name": "Aly",
-    "current_role": "Analyst | Applications Developer",
-    "location": "Mississauga, ON, Canada",
-    "email": "aly.abdelwahed@alumni.utoronto.ca",
-    "linkedin": "https://www.linkedin.com/in/aly-abdelwahed/",
-    "specialties": [
-      "Oracle Fusion Cloud Integrations (ERP, HCM, EPM)",
-      "Azure Functions and DevOps Automation",
-      "AI and Data Engineering Solutions"
-    ],
-    "years_experience": 2,
-    "education": [
-      {
-        "degree": "Honours Bachelor of Science in Computer Science (Specialist in Statistical Machine Learning and Data Science, Co-op)",
-        "institution": "University of Toronto",
-        "year": "2024"
-      }
-    ],
-    "work_experience": [
-      {
-        "company": "Novamodus Solutions Inc",
-        "location": "Mississauga, ON",
-        "title": "Analyst | Applications Developer",
-        "period": "Jul 2024 – Present",
-        "type": "Full-Time",
-        "responsibilities": [
-          "Developed and deployed 5 C# .NET Core integrations in Azure DevOps as Azure Functions, implementing robust ETL pipelines to synchronize data between multiple cloud SaaS platforms and Oracle Fusion for seamless E2E integrations.",
-          "Maintained and enhanced a Python-based bot that automatically retrieves and distributes RFPs to stakeholders, including the CEO.",
-          "Created a C# .NET Core desktop data conversion application for Oracle modules, performing data validation and RESTful API uploads.",
-          "Developed 10+ Python automation scripts using Polars + RAPIDS (GPU) for processing large client datasets and invoking Oracle APIs.",
-          "Built SQL-based reports for clients by joining complex Oracle Fusion HCM and ERP subject areas (Personnel, Assignments, Compensation, Payroll)."
-        ],
-        "technologies": [
-          "Python",
-          "C#",
-          ".NET",
-          "Oracle ERP",
-          "Oracle HCM",
-          "Oracle EPM",
-          "Azure Functions",
-          "Azure DevOps",
-          "RESTful API",
-          "SQL",
-          "Jira"
-        ]
-      },
-      {
-        "company": "Royal Canin Canada",
-        "location": "Remote",
-        "title": "Data Scientist (CO-OP)",
-        "period": "May 2022 – Aug 2022",
-        "type": "Internship (Co-op)",
-        "responsibilities": [
-          "Implemented ETL-driven automation in supply chain operations, reducing manual work from 3–4 hours to 15–20 minutes daily.",
-          "Built Power BI dashboards to provide actionable insights to senior management and improve operational efficiency.",
-          "Developed Python scripts consolidating large datasets for reporting and resource optimization."
-        ],
-        "technologies": ["Python", "Power BI"]
-      },
-      {
-        "company": "Royal Canin Canada",
-        "location": "Remote",
-        "title": "Data Scientist (CO-OP)",
-        "period": "Sep 2021 – Dec 2021",
-        "type": "Internship (Co-op)",
-        "responsibilities": [
-          "Developed Python scripts consolidating 100+ supply chain data files for inventory dashboards.",
-          "Visualized work capacity distribution to improve task allocation and reduce overworked associates."
-        ],
-        "technologies": ["Python", "Power BI"]
-      },
-      {
-        "company": "Ontario Ministry of Government and Consumer Services",
-        "location": "Toronto, ON",
-        "title": "Applications Programmer & Analyst (CO-OP)",
-        "period": "Jan 2020 – Apr 2020",
-        "type": "Internship (Co-op)",
-        "responsibilities": [
-          "Developed client-facing features using TypeScript, Java, and SQL to enhance UX and meet stakeholder requirements.",
-          "Created complex SQL queries and stored procedures to optimize backend data operations."
-        ],
-        "technologies": [
-          "Java",
-          "SQL",
-          "TypeScript",
-          "Git",
-          "Node.js",
-          "Oracle Database",
-          "Angular",
-          "CSS",
-          "HTML",
-          "JSON"
-        ]
-      }
-    ],
-    "projects": [
-      {
-        "name": "Helpdesk Triage Agent",
-        "link": "https://github.com/alyab16/helpdesk-triage-agent",
-        "description": "FastAPI service combining a PyTorch sentiment classifier (DistilBERT SST-2) with LangGraph and LangChain for automated ticket triage, supporting CUDA/MPS/CPU with GPU half-precision inference."
-      },
-      {
-        "name": "Flagging Loans Project",
-        "link": "https://github.com/alyab16/Flagging-Loans",
-        "description": "Built a predictive model for loan risk assessment using Python, Scikit-learn, Pandas, and NumPy, achieving strong accuracy on imbalanced datasets."
-      },
-      {
-        "name": "Top 1500 Steam Games Analysis",
-        "link": "https://github.com/alyab16/Top-1500-Games-On-Steam/tree/main",
-        "description": "Analyzed Steam’s top 1500 games by revenue; implemented a Gradient Boosting Regressor to predict game prices with 78% accuracy."
-      },
-      {
-        "name": "Age Related Risk Analysis of COVID-19 Outcomes",
-        "link": "https://github.com/alyab16/Age-Related-Risk-Analysis-of-COVID-19-Outcomes",
-        "description": "Used R Markdown, logistic regression, and bootstrap tests to analyze age-dependent COVID-19 mortality risks, validated with k-fold cross-validation."
-      }
-    ],
-    "skills": {
-      "programming_languages": ["Python", "Java", "C#", "SQL (MySQL & PostgreSQL)", ".NET Core", ".NET Framework", "R"],
-      "deep_learning_and_llm": ["PyTorch", "TensorFlow", "LangChain", "LangGraph", "Autogen", "CrewAI", "MCP"],
-      "machine_learning": ["NVIDIA RAPIDS", "Scikit-Learn", "Pandas", "NumPy", "Polars", "Matplotlib", "Seaborn"],
-      "other_tools": ["FastAPI", "HuggingFace Transformers", "RESTful APIs", "Pydantic", "OOP", "Git", "Docker", "JSON"],
-      "interpersonal_skills": ["Cross-functional Collaboration", "Quick Learning", "Adaptability", "Teamwork", "Problem-Solving", "Communication", "Critical Thinking"]
+  "full_name": "Aly Abdelwahed",
+  "name": "Aly",
+  "current_role": "Analyst | Applications Developer",
+  "location": "Mississauga, ON, Canada",
+  "email": "aly.abdelwahed@alumni.utoronto.ca",
+  "linkedin": "https://www.linkedin.com/in/aly-abdelwahed/",
+  "specialties": [
+    "Oracle Fusion Cloud Integrations (ERP, HCM, EPM)",
+    "Azure Functions and DevOps Automation",
+    "AI and Data Engineering Solutions"
+  ],
+  "years_experience": 2,
+  "education": [
+    {
+      "degree": "Honours Bachelor of Science in Computer Science (Specialist in Statistical Machine Learning and Data Science, Co-op)",
+      "institution": "University of Toronto",
+      "year": "2024"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Novamodus Solutions Inc",
+      "location": "Mississauga, ON",
+      "title": "Business Technology Analyst | Applications Developer",
+      "period": "Jul 2024 – Present",
+      "type": "Full-Time",
+      "responsibilities": [
+        "Operated in a client-facing consulting role, collaborating with stakeholders to translate business requirements into technical solutions, present findings, clarify scope, and support delivery across multiple external client projects.",
+        "Designed and implemented data models across all C#-based integrations to support efficient ingestion, transformation, validation, and interaction with REST and SOAP APIs, resulting in scalable and reusable architectures.",
+        "Developed and deployed multiple Oracle Time and Labour integrations using C# .NET Core Azure Functions, REST APIs, and SOAP APIs to automate processing of 30,000+ time entries from systems such as Trapeze and Microsoft Shifts into Oracle Fusion HCM, with built-in exception reporting and failure handling.",
+        "Built an automated .NET Core (C#) integration to process SAP files and generate HDL batches, submitting and polling process status through REST APIs for pending worker creation and retrieving results via BIP reports using SOAP APIs.",
+        "Developed and deployed 5+ C# .NET Core integrations in Azure DevOps as Azure Functions, implementing robust ETL pipelines synchronizing data between cloud SaaS platforms and Oracle Fusion across ERP and HCM modules.",
+        "Collaborated on the completion of 4 outbound integrations from Oracle Fusion HCM to external systems including Trapeze, SAP, JD Edwards, and a Telus Abilities Management SFTP server.",
+        "Resolved critical bugs across an Oracle-based web application built using Oracle Visual Builder, fixing JavaScript UI logic, OIC middleware issues, and database stored procedures in Oracle ATP to restore core functionality and data integrity.",
+        "Created a C# .NET Core desktop data conversion application for Oracle modules, automating validation and REST API uploading of client data across ERP and HCM.",
+        "Developed 10+ GPU-accelerated Python automation scripts using Polars and NVIDIA RAPIDS for large-scale data validation and transformation, generating JSON payloads for high-throughput Oracle REST API uploads.",
+        "Enhanced an RFP-scraping Python bot with Selenium, Playwright, and BeautifulSoup to improve scraping reliability, dynamic content handling, and stakeholder notification accuracy.",
+        "Built SQL-based reporting solutions intersecting multiple Oracle Fusion ERP/HCM subject areas including Personnel, Compensation, Assignments, and Payroll.",
+        "Worked in Agile teams, attending sprint planning, daily standups, and code reviews, while maintaining documentation of integrations and test plans."
+      ],
+      "technologies": [
+        "Python",
+        "C#",
+        ".NET",
+        ".NET Core",
+        "Oracle ERP",
+        "Oracle HCM",
+        "Oracle EPM",
+        "Oracle Visual Builder",
+        "Oracle Integration Cloud (OIC)",
+        "Oracle ATP",
+        "Azure Functions",
+        "Azure DevOps",
+        "REST APIs",
+        "SOAP APIs",
+        "SQL",
+        "PL/SQL",
+        "JavaScript",
+        "Jira"
+      ]
     },
-    "certifications": [
-      {
-        "name": "Deep Learning Specialization",
-        "issuer": "Coursera (Andrew Ng)",
-        "date": "Jan 2025",
-        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/UINR0PFSULBQ"
-      },
-      {
-        "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
-        "issuer": "Oracle",
-        "date": "Jul 2024",
-        "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7034358BF6EA88905AB6BD33B1A5E55A0BCF2F944798F41E4373286246FA1E7C"
-      },
-      {
-        "name": "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
-        "issuer": "Oracle",
-        "date": "Feb 2025",
-        "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=73147588C3E448E3AE8DF9CF7FC44C945E18C075FC6BFD0C5873FD6FC996902C"
-      },
-      {
-        "name": "Getting Started with Accelerated Computing in CUDA C/C++",
-        "issuer": "NVIDIA",
-        "date": "Jan 2025",
-        "link": "https://learn.nvidia.com/certificates?id=iRvv789RS7mAjyh00uIscg"
-      },
-      {
-        "name": "Google Data Analytics Specialization",
-        "issuer": "Google",
-        "date": "Jun 2024",
-        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/FAFTQ93QEUC9"
-      },
-      {
-        "name": "IBM Data Science Professional Certificate",
-        "issuer": "IBM / Coursera",
-        "date": "Feb 2024",
-        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/S76CPAF3A86K"
-      }
+    {
+      "company": "Royal Canin Canada",
+      "location": "Remote",
+      "title": "Data Scientist (CO-OP)",
+      "period": "May 2022 – Aug 2022",
+      "type": "Internship (Co-op)",
+      "responsibilities": [
+        "Developed Python automation scripts to manipulate and transform supply chain data, generating actionable Excel reports and reducing manual reporting effort from 3–4 hours to under 20 minutes daily.",
+        "Built Power BI dashboards to provide insights to senior management and improve operational decision-making.",
+        "Consolidated large datasets to support reporting automation, cost savings, and optimized resource allocation."
+      ],
+      "technologies": ["Python", "Power BI"]
+    },
+    {
+      "company": "Royal Canin Canada",
+      "location": "Remote",
+      "title": "Data Scientist (CO-OP)",
+      "period": "Sep 2021 – Dec 2021",
+      "type": "Internship (Co-op)",
+      "responsibilities": [
+        "Developed Python ETL scripts consolidating 100+ supply chain data files for inventory and operations dashboards.",
+        "Built Power BI dashboards and capacity visualizations to improve workload distribution and staffing efficiency."
+      ],
+      "technologies": ["Python", "Power BI"]
+    },
+    {
+      "company": "Ontario Ministry of Government and Consumer Services",
+      "location": "Toronto, ON",
+      "title": "Applications Programmer & Analyst (CO-OP)",
+      "period": "Jan 2020 – Apr 2020",
+      "type": "Internship (Co-op)",
+      "responsibilities": [
+        "Developed client-facing and stakeholder-facing web application features using TypeScript, Java, and SQL based on user requirements.",
+        "Implemented SQL queries and stored procedures to support backend operations and in-app data visualization for decision-making."
+      ],
+      "technologies": [
+        "Java",
+        "SQL",
+        "PL/SQL",
+        "TypeScript",
+        "Node.js",
+        "Oracle Database",
+        "Angular",
+        "CSS",
+        "HTML",
+        "JSON",
+        "Git"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Helpdesk Triage Agent",
+      "link": "https://github.com/alyab16/helpdesk-triage-agent",
+      "description": "FastAPI service combining a PyTorch sentiment classifier (DistilBERT SST-2) with LangGraph and LangChain for automated ticket triage, supporting CUDA/MPS/CPU with GPU half-precision inference."
+    },
+    {
+      "name": "Flagging Loans Project",
+      "link": "https://github.com/alyab16/Flagging-Loans",
+      "description": "Built a predictive model for loan risk assessment using Python, Scikit-learn, Pandas, and NumPy, achieving strong accuracy on imbalanced datasets."
+    },
+    {
+      "name": "Top 1500 Steam Games Analysis",
+      "link": "https://github.com/alyab16/Top-1500-Games-On-Steam/tree/main",
+      "description": "Analyzed Steam’s top 1500 games by revenue; implemented a Gradient Boosting Regressor to predict game prices with 78% accuracy."
+    },
+    {
+      "name": "Age Related Risk Analysis of COVID-19 Outcomes",
+      "link": "https://github.com/alyab16/Age-Related-Risk-Analysis-of-COVID-19-Outcomes",
+      "description": "Used R Markdown, logistic regression, and bootstrap tests to analyze age-dependent COVID-19 mortality risks, validated with k-fold cross-validation."
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C#",
+      "SQL (MySQL & PostgreSQL)",
+      ".NET Core",
+      ".NET Framework",
+      "R"
+    ],
+    "deep_learning_and_llm": [
+      "PyTorch",
+      "TensorFlow",
+      "LangChain",
+      "LangGraph",
+      "Autogen",
+      "CrewAI",
+      "MCP"
+    ],
+    "machine_learning": [
+      "NVIDIA RAPIDS",
+      "Scikit-Learn",
+      "Pandas",
+      "NumPy",
+      "Polars",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "other_tools": [
+      "FastAPI",
+      "HuggingFace Transformers",
+      "RESTful APIs",
+      "SOAP APIs",
+      "Pydantic",
+      "OOP",
+      "Git",
+      "Docker",
+      "JSON"
+    ],
+    "interpersonal_skills": [
+      "Cross-functional Collaboration",
+      "Quick Learning",
+      "Adaptability",
+      "Teamwork",
+      "Problem-Solving",
+      "Communication",
+      "Critical Thinking"
     ]
-  }
-  
+  },
+  "certifications": [
+    {
+      "name": "Deep Learning Specialization",
+      "issuer": "Coursera (Andrew Ng)",
+      "date": "Jan 2025",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/UINR0PFSULBQ"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+      "issuer": "Oracle",
+      "date": "Jul 2024",
+      "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7034358BF6EA88905AB6BD33B1A5E55A0BCF2F944798F41E4373286246FA1E7C"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
+      "issuer": "Oracle",
+      "date": "Feb 2025",
+      "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=73147588C3E448E3AE8DF9CF7FC44C945E18C075FC6BFD0C5873FD6FC996902C"
+    },
+    {
+      "name": "Getting Started with Accelerated Computing in CUDA C/C++",
+      "issuer": "NVIDIA",
+      "date": "Jan 2025",
+      "link": "https://learn.nvidia.com/certificates?id=iRvv789RS7mAjyh00uIscg"
+    },
+    {
+      "name": "Google Data Analytics Specialization",
+      "issuer": "Google",
+      "date": "Jun 2024",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/FAFTQ93QEUC9"
+    },
+    {
+      "name": "IBM Data Science Professional Certificate",
+      "issuer": "IBM / Coursera",
+      "date": "Feb 2024",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/S76CPAF3A86K"
+    }
+  ]
+}
