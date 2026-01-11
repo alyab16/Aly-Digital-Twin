@@ -8,7 +8,7 @@
 ![Frontend](https://img.shields.io/badge/Frontend-Next.js-orange)
 
 🌐 **Live Application:**  
-👉 [https://d2asi4w9fjlw0u.cloudfront.net](https://d2asi4w9fjlw0u.cloudfront.net)
+👉 [https://d200052elumuud.cloudfront.net/](https://d200052elumuud.cloudfront.net/)
 
 ---
 
