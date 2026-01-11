@@ -7,7 +7,7 @@
   "linkedin": "https://www.linkedin.com/in/aly-abdelwahed/",
   "specialties": [
     "Oracle Fusion Cloud Integrations (ERP, HCM, EPM)",
-    "Azure Functions and DevOps Automation",
+    "Cloud Infrastructure & DevOps Automation",
     "AI and Data Engineering Solutions"
   ],
   "years_experience": 2,
@@ -29,15 +29,11 @@
         "Operated in a client-facing consulting role, collaborating with stakeholders to translate business requirements into technical solutions, present findings, clarify scope, and support delivery across multiple external client projects.",
         "Designed and implemented data models across all C#-based integrations to support efficient ingestion, transformation, validation, and interaction with REST and SOAP APIs, resulting in scalable and reusable architectures.",
         "Developed and deployed multiple Oracle Time and Labour integrations using C# .NET Core Azure Functions, REST APIs, and SOAP APIs to automate processing of 30,000+ time entries from systems such as Trapeze and Microsoft Shifts into Oracle Fusion HCM, with built-in exception reporting and failure handling.",
-        "Built an automated .NET Core (C#) integration to process SAP files and generate HDL batches, submitting and polling process status through REST APIs for pending worker creation and retrieving results via BIP reports using SOAP APIs.",
-        "Developed and deployed 5+ C# .NET Core integrations in Azure DevOps as Azure Functions, implementing robust ETL pipelines synchronizing data between cloud SaaS platforms and Oracle Fusion across ERP and HCM modules.",
-        "Collaborated on the completion of 4 outbound integrations from Oracle Fusion HCM to external systems including Trapeze, SAP, JD Edwards, and a Telus Abilities Management SFTP server.",
-        "Resolved critical bugs across an Oracle-based web application built using Oracle Visual Builder, fixing JavaScript UI logic, OIC middleware issues, and database stored procedures in Oracle ATP to restore core functionality and data integrity.",
-        "Created a C# .NET Core desktop data conversion application for Oracle modules, automating validation and REST API uploading of client data across ERP and HCM.",
-        "Developed 10+ GPU-accelerated Python automation scripts using Polars and NVIDIA RAPIDS for large-scale data validation and transformation, generating JSON payloads for high-throughput Oracle REST API uploads.",
-        "Enhanced an RFP-scraping Python bot with Selenium, Playwright, and BeautifulSoup to improve scraping reliability, dynamic content handling, and stakeholder notification accuracy.",
-        "Built SQL-based reporting solutions intersecting multiple Oracle Fusion ERP/HCM subject areas including Personnel, Compensation, Assignments, and Payroll.",
-        "Worked in Agile teams, attending sprint planning, daily standups, and code reviews, while maintaining documentation of integrations and test plans."
+        "Built an automated .NET Core (C#) integration to process SAP files and generate HDL batches, submitting and polling process status through REST APIs and retrieving results via BI Publisher SOAP reports.",
+        "Developed and deployed 5+ Azure Functions in Azure DevOps, implementing robust ETL pipelines synchronizing data between cloud SaaS platforms and Oracle Fusion ERP/HCM.",
+        "Resolved critical bugs across Oracle Visual Builder applications, OIC integrations, and Oracle ATP stored procedures to restore data integrity and system functionality.",
+        "Built SQL-based reporting solutions spanning Oracle Fusion subject areas including Payroll, Assignments, Personnel, and Compensation.",
+        "Worked in Agile teams, participating in sprint planning, standups, code reviews, and maintaining technical documentation and test plans."
       ],
       "technologies": [
         "Python",
@@ -59,58 +55,14 @@
         "JavaScript",
         "Jira"
       ]
-    },
-    {
-      "company": "Royal Canin Canada",
-      "location": "Remote",
-      "title": "Data Scientist (CO-OP)",
-      "period": "May 2022 – Aug 2022",
-      "type": "Internship (Co-op)",
-      "responsibilities": [
-        "Developed Python automation scripts to manipulate and transform supply chain data, generating actionable Excel reports and reducing manual reporting effort from 3–4 hours to under 20 minutes daily.",
-        "Built Power BI dashboards to provide insights to senior management and improve operational decision-making.",
-        "Consolidated large datasets to support reporting automation, cost savings, and optimized resource allocation."
-      ],
-      "technologies": ["Python", "Power BI"]
-    },
-    {
-      "company": "Royal Canin Canada",
-      "location": "Remote",
-      "title": "Data Scientist (CO-OP)",
-      "period": "Sep 2021 – Dec 2021",
-      "type": "Internship (Co-op)",
-      "responsibilities": [
-        "Developed Python ETL scripts consolidating 100+ supply chain data files for inventory and operations dashboards.",
-        "Built Power BI dashboards and capacity visualizations to improve workload distribution and staffing efficiency."
-      ],
-      "technologies": ["Python", "Power BI"]
-    },
-    {
-      "company": "Ontario Ministry of Government and Consumer Services",
-      "location": "Toronto, ON",
-      "title": "Applications Programmer & Analyst (CO-OP)",
-      "period": "Jan 2020 – Apr 2020",
-      "type": "Internship (Co-op)",
-      "responsibilities": [
-        "Developed client-facing and stakeholder-facing web application features using TypeScript, Java, and SQL based on user requirements.",
-        "Implemented SQL queries and stored procedures to support backend operations and in-app data visualization for decision-making."
-      ],
-      "technologies": [
-        "Java",
-        "SQL",
-        "PL/SQL",
-        "TypeScript",
-        "Node.js",
-        "Oracle Database",
-        "Angular",
-        "CSS",
-        "HTML",
-        "JSON",
-        "Git"
-      ]
     }
   ],
   "projects": [
+    {
+      "name": "Cybersecurity Analyzer Platform",
+      "link": "https://github.com/alyab16/Cybersecurity-Analyzer",
+      "description": "Designed and implemented an end-to-end, containerized cybersecurity analysis platform composed of a FastAPI orchestration service and multiple TensorFlow-based ML microservices for vulnerability detection and secrets scanning. Built a full cloud-native deployment pipeline using Docker Compose for local development, Terraform for infrastructure provisioning across AWS and Azure, and GitHub Actions CI/CD with OpenID Connect (OIDC) authentication. Implemented automated Docker image builds, tagging, and publishing to Amazon ECR and Azure Container Registry, along with secure IAM role design, environment configuration, and infrastructure state management. Debugged and resolved production-grade issues including image pull failures, IAM permission errors, Terraform state drift, and multi-service dependency orchestration."
+    },
     {
       "name": "Helpdesk Triage Agent",
       "link": "https://github.com/alyab16/helpdesk-triage-agent",
@@ -160,15 +112,24 @@
       "Matplotlib",
       "Seaborn"
     ],
+    "cloud_and_devops": [
+      "AWS (ECR, ECS, IAM, VPC, CloudWatch)",
+      "Azure (Container Apps, ACR, Functions)",
+      "Terraform",
+      "Docker",
+      "Docker Compose",
+      "GitHub Actions",
+      "OIDC",
+      "CI/CD Pipelines",
+      "Infrastructure as Code"
+    ],
     "other_tools": [
       "FastAPI",
       "HuggingFace Transformers",
       "RESTful APIs",
       "SOAP APIs",
       "Pydantic",
-      "OOP",
       "Git",
-      "Docker",
       "JSON"
     ],
     "interpersonal_skills": [
@@ -180,43 +141,5 @@
       "Communication",
       "Critical Thinking"
     ]
-  },
-  "certifications": [
-    {
-      "name": "Deep Learning Specialization",
-      "issuer": "Coursera (Andrew Ng)",
-      "date": "Jan 2025",
-      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/UINR0PFSULBQ"
-    },
-    {
-      "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
-      "issuer": "Oracle",
-      "date": "Jul 2024",
-      "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7034358BF6EA88905AB6BD33B1A5E55A0BCF2F944798F41E4373286246FA1E7C"
-    },
-    {
-      "name": "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
-      "issuer": "Oracle",
-      "date": "Feb 2025",
-      "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=73147588C3E448E3AE8DF9CF7FC44C945E18C075FC6BFD0C5873FD6FC996902C"
-    },
-    {
-      "name": "Getting Started with Accelerated Computing in CUDA C/C++",
-      "issuer": "NVIDIA",
-      "date": "Jan 2025",
-      "link": "https://learn.nvidia.com/certificates?id=iRvv789RS7mAjyh00uIscg"
-    },
-    {
-      "name": "Google Data Analytics Specialization",
-      "issuer": "Google",
-      "date": "Jun 2024",
-      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/FAFTQ93QEUC9"
-    },
-    {
-      "name": "IBM Data Science Professional Certificate",
-      "issuer": "IBM / Coursera",
-      "date": "Feb 2024",
-      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/S76CPAF3A86K"
-    }
-  ]
+  }
 }
