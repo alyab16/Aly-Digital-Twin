@@ -1,19 +1,26 @@
 {
   "full_name": "Aly Abdelwahed",
   "name": "Aly",
-  "current_role": "Analyst | Applications Developer",
+  "current_role": "Business Technology Analyst & Applications Developer",
   "location": "Mississauga, ON, Canada",
   "email": "aly.abdelwahed@alumni.utoronto.ca",
   "linkedin": "https://www.linkedin.com/in/aly-abdelwahed/",
+  "github": "https://github.com/alyab16",
+  "languages": [
+    "English (fluent)",
+    "French (fluent)",
+    "Arabic (native)"
+  ],
   "specialties": [
+    "Applied AI and Agentic Systems (LLMs, RAG, multi-agent orchestration)",
     "Oracle Fusion Cloud Integrations (ERP, HCM, EPM)",
-    "Cloud Infrastructure & DevOps Automation",
-    "AI and Data Engineering Solutions"
+    "Data Engineering and ETL Pipelines",
+    "Full-Stack and Azure Functions Development"
   ],
   "years_experience": 2,
   "education": [
     {
-      "degree": "Honours Bachelor of Science in Computer Science (Specialist in Statistical Machine Learning and Data Science, Co-op)",
+      "degree": "Honours Bachelor of Science, Specialist in Statistical Machine Learning and Data Science (Co-op)",
       "institution": "University of Toronto",
       "year": "2024"
     }
@@ -22,66 +29,183 @@
     {
       "company": "Novamodus Solutions Inc",
       "location": "Mississauga, ON",
-      "title": "Business Technology Analyst | Applications Developer",
-      "period": "Jul 2024 – Present",
+      "title": "Business Technology Analyst & Applications Developer",
+      "period": "Jul 2024 - Present",
       "type": "Full-Time",
       "responsibilities": [
-        "Operated in a client-facing consulting role, collaborating with stakeholders to translate business requirements into technical solutions, present findings, clarify scope, and support delivery across multiple external client projects.",
-        "Designed and implemented data models across all C#-based integrations to support efficient ingestion, transformation, validation, and interaction with REST and SOAP APIs, resulting in scalable and reusable architectures.",
-        "Developed and deployed multiple Oracle Time and Labour integrations using C# .NET Core Azure Functions, REST APIs, and SOAP APIs to automate processing of 30,000+ time entries from systems such as Trapeze and Microsoft Shifts into Oracle Fusion HCM, with built-in exception reporting and failure handling.",
-        "Built an automated .NET Core (C#) integration to process SAP files and generate HDL batches, submitting and polling process status through REST APIs and retrieving results via BI Publisher SOAP reports.",
-        "Developed and deployed 5+ Azure Functions in Azure DevOps, implementing robust ETL pipelines synchronizing data between cloud SaaS platforms and Oracle Fusion ERP/HCM.",
-        "Resolved critical bugs across Oracle Visual Builder applications, OIC integrations, and Oracle ATP stored procedures to restore data integrity and system functionality.",
-        "Built SQL-based reporting solutions spanning Oracle Fusion subject areas including Payroll, Assignments, Personnel, and Compensation.",
-        "Worked in Agile teams, participating in sprint planning, standups, code reviews, and maintaining technical documentation and test plans."
+        "Operated in a client-facing consulting role across multiple enterprise clients: ran discovery sessions, translated business requirements into data mappings, validation rules, API payloads, and test plans, briefed executives on automation ROI, and provided post-go-live support (tickets, enhancements, Oracle Cloud upgrades).",
+        "Designed and deployed a production agentic AI / RFP-discovery system in Python (Playwright MCP, vector search, embeddings, structured outputs, FastAPI) that autonomously searches RFP portals, semantically reasons over bid fit, and emails the CEO executive-summary recommendations, saving hours of manual research per associate and driving new client acquisition. Earlier form was a Python bot using Selenium, Playwright, and BeautifulSoup.",
+        "Built 10+ Python ETL/API pipelines that processed 3M+ client records, transforming messy, unstructured source files against custom business rules into module-specific datasets and uploading them into Oracle Fusion through validated GET/POST/PATCH REST API workflows.",
+        "GPU-accelerated many ETL scripts with Polars and NVIDIA RAPIDS for large-scale validation and transformation, generating structured JSON payloads for high-throughput REST uploads to Oracle Fusion ERP/HCM, with validation, retries, and exception handling.",
+        "Architected 6 production C#/.NET Core Azure Functions integrations for a major provincial Crown corporation, synchronizing tens of thousands of rows weekly inbound to and outbound from Oracle Fusion HCM across SAP, JD Edwards, Microsoft Shifts, and Trapeze.",
+        "Built and deployed 3 automated Oracle Time and Labour (OTL) integrations (C#/.NET Core, Azure Functions, REST/SOAP APIs) ingesting 30,000+ time-entry rows from Trapeze and Microsoft Shifts into Oracle Fusion HCM, with exception reporting and detailed result reporting; impacted payroll for around 800 employees.",
+        "Cut the REST API upload portion of an OTL integration from 4 hours to 2 minutes using semaphore-controlled concurrency that dispatches payloads to Oracle Fusion REST APIs in parallel within rate limits, and fine-tuned two polled Oracle ESS jobs (chunk size, thread count) for throughput and reliability.",
+        "Built an SAP-to-Oracle pending-worker pipeline (Azure Function) that transforms inbound SAP files into HDL, submits and polls Oracle ESS jobs via REST APIs, and retrieves results from BI Publisher reports via SOAP APIs, with comprehensive error handling.",
+        "Built Oracle Integration Cloud (OIC) integrations for a major mental health institution in North America (50,000+ rows); led weekly and daily partner meetings on issue resolution, API requirements, data formats, edge cases, and enhancements.",
+        "Collaborated on 4 outbound integrations from Oracle Fusion HCM to external systems including Trapeze, SAP, JD Edwards, and a Telus Abilities Management SFTP server, defining transformation schemas and file formats.",
+        "Created a company-wide data conversion tool for Oracle Fusion ERP, HCM, and EPM module loads that cut a 4+ month upload process by 50%+ through automated validations run before ingestion, saving hundreds of hours and freeing functional teams for higher-value work. Originally a WPF desktop app (C#/.NET Core), later modernized into a full-stack ASP.NET/React web app deployed to Azure via Docker.",
+        "Built a second C#/.NET Core desktop tool to automate user provisioning (add/remove roles, manage data access) for Oracle ERP/HCM users via REST APIs.",
+        "As sole developer, restored a consumer-facing production web application running on 180 OIC integrations acting as middleware between Oracle Fusion, Oracle Visual Builder, and the Oracle ATP database for one of the largest school districts in the United States (22,000+ students, 6,000+ staff), unblocking 200+ courses that had been inaccessible for 3+ months by diagnosing and fixing JavaScript UI logic, OIC middleware, and ATP stored procedures.",
+        "Developed scikit-learn regression models and deployed them into Oracle EPM Bring Your Own ML (BYOML) for automated and on-demand revenue and expense forecasting, replacing manual spreadsheets; presented to client finance stakeholders.",
+        "Designed solution blueprints for Procurement, Financial, and HR AI Agents using Oracle AI Agents Studio and presented the designs to functional leads for adoption.",
+        "Delivered 7+ custom Oracle BI Publisher reports for 4+ enterprise clients using optimized SQL and PL/SQL across Oracle Fusion HCM/ERP subject areas (Personnel, Assignments, Compensation, Payroll), and built/refactored 15+ Apache Groovy automations within Oracle EPM Cloud.",
+        "Standardized reusable C#/.NET Core data-ingestion/transformation components (MVVM, OOP patterns) into a consistent framework, and implemented integration monitoring and error telemetry with discrepancy reports and automated failure alerts.",
+        "Built and enhanced a full-stack professional-services management platform using React, TypeScript, Python/Flask, SQLAlchemy, MySQL, Docker, and Alembic, replacing mock workflows with live operational data across staffing, projects, clients, reporting, and administration.",
+        "Developed workforce planning features that let managers forecast staffing capacity, compare planned versus billable hours, identify over-allocation risk, analyze utilization across weekly through annual time periods, and filter results by project, consultant, and date range.",
+        "Delivered end-to-end project delivery workflows for defining scope, deliverables, modules, consultant assignments, allocation percentages, schedules, contracts, data migration activities, and optional pricing.",
+        "Implemented secure role-based access control across the platform, including permission-based page visibility, administrator-only management tools, fine-grained API authorization, user-role management, and session-aware permission refresh behavior.",
+        "Built a production-grade data import and rollback process that ingests operational planning data from JSON, synchronizes projects, people, skills, certifications, subscriptions, and staffing allocations, and preserves pre-import records for safe reversal.",
+        "Created an asset inventory and allocation management module with bulk Excel import, asset type and location administration, asset assignment history, and permission-controlled access for operational users.",
+        "Enhanced project and support-management capabilities with utilization tracking, support-project billing controls, automated client-to-project data synchronization, flexible report date filtering, and business rules for support-hours reporting.",
+        "Improved frontend responsiveness by implementing optimistic UI updates and background data refreshes, allowing users to see completed changes immediately while database synchronization continues in the background.",
+        "Designed and automated containerized application deployments on Oracle Cloud Infrastructure, including Docker image builds, database migration execution, permission registration, Nginx frontend releases, staged file swaps, rollback protection, and secure environment configuration.",
+        "Built infrastructure automation using Terraform and PowerShell to create temporary secure access tunnels and orchestrate backend and frontend deployments to a private cloud VM.",
+        "Built a separate CI/CD pipeline for the company website, automating build and deployment activities to improve release consistency and reduce manual deployment effort.",
+        "Worked in Agile teams (sprint planning, daily standups, code reviews), maintained documentation of integrations and test plans, and mentored junior developers and new hires to independent delivery."
       ],
       "technologies": [
         "Python",
         "C#",
-        ".NET",
         ".NET Core",
-        "Oracle ERP",
-        "Oracle HCM",
-        "Oracle EPM",
-        "Oracle Visual Builder",
-        "Oracle Integration Cloud (OIC)",
-        "Oracle ATP",
-        "Azure Functions",
-        "Azure DevOps",
-        "REST APIs",
-        "SOAP APIs",
+        ".NET Framework",
+        "TypeScript",
+        "React",
         "SQL",
         "PL/SQL",
+        "FastAPI",
+        "Flask",
+        "SQLAlchemy",
+        "MySQL",
+        "Alembic (database migrations)",
+        "Terraform",
+        "PowerShell",
+        "Nginx",
+        "Oracle Cloud Infrastructure (OCI)",
+        "CI/CD",
+        "Polars",
+        "NVIDIA RAPIDS",
+        "LLM Agents",
+        "MCP",
+        "RAG",
+        "Embeddings",
+        "Vector Databases",
+        "Playwright",
+        "Selenium",
+        "scikit-learn",
+        "REST APIs",
+        "SOAP APIs",
+        "Azure Functions",
+        "Azure DevOps",
+        "Docker",
+        "Oracle Fusion (ERP, HCM, EPM)",
+        "Oracle Integration Cloud (OIC)",
+        "Oracle Visual Builder",
+        "Oracle ATP",
+        "BI Publisher / OTBI",
+        "Apache Groovy",
         "JavaScript",
+        "Git",
         "Jira"
+      ]
+    },
+    {
+      "company": "Royal Canin Canada",
+      "location": "Remote",
+      "title": "Data Scientist (CO-OP)",
+      "period": "Sep 2021 - Sep 2022",
+      "type": "Internship (Co-op)",
+      "responsibilities": [
+        "Automated supply chain reporting by centralizing and aggregating 100+ files, reducing a daily 3-4 hour reporting process to under 20 minutes and improving inventory, procurement, and planning visibility.",
+        "Built a CFO-facing revenue and finance Power BI dashboard transforming sales data into insights (revenue trends, performance analysis, business KPIs) for senior leadership.",
+        "Conducted statistical analysis of sales data in Python to surface trends and actionable insights, and consolidated company cell-phone usage data to help top management optimize resource allocation and costs.",
+        "Built Python/pandas ETL pipelines consolidating supply chain, finance, and HR data from 100+ fragmented sources into Power BI dashboards used by senior leadership, including the Director of Supply Chain and CFO.",
+        "Built a Power BI work-capacity and workload-distribution report that surfaced overloaded associates, letting leadership rebalance workload company-wide.",
+        "Improved inventory data accuracy by building a Python reconciliation script that flagged discrepancies between purchase orders and goods received before they reached downstream reports."
+      ],
+      "technologies": ["Python", "pandas", "Power BI", "Excel", "PowerPoint"]
+    },
+    {
+      "company": "Ontario Ministry of Government and Consumer Services",
+      "location": "Toronto, ON",
+      "title": "Applications Programmer & Analyst (CO-OP)",
+      "period": "Jan 2020 - Apr 2020",
+      "type": "Internship (Co-op)",
+      "responsibilities": [
+        "Developed full-stack features for a government service-request platform using Angular, TypeScript, Java, and SQL-backed services, supporting stakeholder workflows to submit, track, and manage requests.",
+        "Built the Java REST API and SQL stored procedures to validate, route, and audit service requests across ministry workflows, ensuring reliable inter-department handoff and a complete audit trail.",
+        "Partnered with cross-ministry stakeholders to gather requirements, map workflows, and serve live data to the UI layer via REST endpoints."
+      ],
+      "technologies": [
+        "Java",
+        "SQL",
+        "PL/SQL",
+        "TypeScript",
+        "Angular",
+        "Node.js",
+        "Oracle Database",
+        "CSS",
+        "HTML",
+        "JSON",
+        "Git"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Cybersecurity Analyzer Platform",
+      "name": "Production Conversational AI - Digital Twin",
+      "link": "https://github.com/alyab16/Aly-Digital-Twin",
+      "live": "https://d200052elumuud.cloudfront.net/",
+      "description": "Deployed a Next.js/FastAPI AI app to production on AWS using Bedrock, S3 blob-backed memory, Terraform, CloudFront, Lambda, API Gateway, and GitHub Actions CI/CD, with multi-turn context and secure credential handling."
+    },
+    {
+      "name": "Employee Onboarding Agent",
+      "link": "https://github.com/alyab16/Employee-Onboarding-Agent",
+      "description": "Next.js/TypeScript + FastAPI multi-agent system with LangGraph specialists and routing, FastMCP servers, RAG over policy docs with semantic search, ChromaDB vector store, SQLModel persistence, human-in-the-loop approvals, SSE streaming, LangSmith tracing, and a 15-case evaluation harness (deterministic + LLM-as-judge)."
+    },
+    {
+      "name": "Enterprise SaaS Onboarding Agent",
+      "link": "https://github.com/alyab16/Enterprise-SaaS-Onboarding-Agent",
+      "description": "Pydantic AI / FastMCP agent orchestrating 28 tools across Salesforce/CLM/NetSuite (Sales-to-Contract-to-Invoice-to-Provisioning), with DistilBERT sentiment analysis, proactive alerts, audit logs, Logfire tracing, and portfolio-level risk monitoring."
+    },
+    {
+      "name": "Agentic AI Cybersecurity Analyzer",
       "link": "https://github.com/alyab16/Cybersecurity-Analyzer",
-      "description": "Designed and implemented an end-to-end, containerized cybersecurity analysis platform composed of a FastAPI orchestration service and multiple TensorFlow-based ML microservices for vulnerability detection and secrets scanning. Built a full cloud-native deployment pipeline using Docker Compose for local development, Terraform for infrastructure provisioning across AWS and Azure, and GitHub Actions CI/CD with OpenID Connect (OIDC) authentication. Implemented automated Docker image builds, tagging, and publishing to Amazon ECR and Azure Container Registry, along with secure IAM role design, environment configuration, and infrastructure state management. Debugged and resolved production-grade issues including image pull failures, IAM permission errors, Terraform state drift, and multi-service dependency orchestration."
+      "description": "Next.js/TypeScript + FastAPI security platform that turns uploaded Python code into structured vulnerability reports via MCP-governed Semgrep execution, ML false-positive filtering, and secrets detection. Deployed on AWS ECS Fargate across 3 Dockerized microservices with Terraform + GitHub Actions CI/CD; also deployed multi-cloud to Azure and GCP, with SageMaker inference and S3 vectors."
+    },
+    {
+      "name": "SaaS Financial Planner - Multi-Agent System (capstone)",
+      "link": null,
+      "description": "Architected and deployed a production multi-agent system on AWS using an event-driven design (Aurora Serverless + Lambda + SQS), JWT-authenticated CloudFront frontend, LangFuse observability and tracing, guardrails, and Amazon Bedrock AgentCore for agentic loops."
+    },
+    {
+      "name": "SaaS Healthcare App",
+      "link": null,
+      "description": "Shipped a Next.js SaaS product to production on Vercel + AWS using AWS App Runner and Clerk for auth, user management, and subscriptions; an end-to-end LLM SaaS with billing."
     },
     {
       "name": "Helpdesk Triage Agent",
       "link": "https://github.com/alyab16/helpdesk-triage-agent",
-      "description": "FastAPI service combining a PyTorch sentiment classifier (DistilBERT SST-2) with LangGraph and LangChain for automated ticket triage, supporting CUDA/MPS/CPU with GPU half-precision inference."
+      "description": "Production-grade FastAPI + PyTorch + HuggingFace DistilBERT (SST-2) service doing real-time sentiment classification and LLM-driven response generation with LangGraph/LangChain, GPU-optimized inference (autocast + half precision, CUDA/MPS/CPU), and policy-based routing to auto-escalate high-risk tickets."
     },
     {
-      "name": "Flagging Loans Project",
+      "name": "Flagging Loans",
       "link": "https://github.com/alyab16/Flagging-Loans",
-      "description": "Built a predictive model for loan risk assessment using Python, Scikit-learn, Pandas, and NumPy, achieving strong accuracy on imbalanced datasets."
+      "description": "Predictive model for loan-risk assessment using Python, scikit-learn, pandas, and NumPy, handling imbalanced datasets with high accuracy."
     },
     {
       "name": "Top 1500 Steam Games Analysis",
-      "link": "https://github.com/alyab16/Top-1500-Games-On-Steam/tree/main",
-      "description": "Analyzed Steam’s top 1500 games by revenue; implemented a Gradient Boosting Regressor to predict game prices with 78% accuracy."
+      "link": "https://github.com/alyab16/Top-1500-Games-On-Steam",
+      "description": "Analyzed Steam's top 1500 games by revenue; implemented a Gradient Boosting Regressor predicting game prices with 78% accuracy."
     },
     {
-      "name": "Age Related Risk Analysis of COVID-19 Outcomes",
+      "name": "Age-Related Risk Analysis of COVID-19 Outcomes",
       "link": "https://github.com/alyab16/Age-Related-Risk-Analysis-of-COVID-19-Outcomes",
-      "description": "Used R Markdown, logistic regression, and bootstrap tests to analyze age-dependent COVID-19 mortality risks, validated with k-fold cross-validation."
+      "description": "R Markdown + statistics (logistic regression, bootstrap tests) quantifying age-dependent mortality risk, validated via k-fold cross-validation and hypothesis testing."
+    },
+    {
+      "name": "Item Trader Application",
+      "link": "https://github.com/alyab16/Item-Trader",
+      "description": "Java item-trading system with SQLite, user/admin functionality, trade management, and monetization."
     }
   ],
   "skills": {
@@ -112,24 +236,15 @@
       "Matplotlib",
       "Seaborn"
     ],
-    "cloud_and_devops": [
-      "AWS (ECR, ECS, IAM, VPC, CloudWatch)",
-      "Azure (Container Apps, ACR, Functions)",
-      "Terraform",
-      "Docker",
-      "Docker Compose",
-      "GitHub Actions",
-      "OIDC",
-      "CI/CD Pipelines",
-      "Infrastructure as Code"
-    ],
     "other_tools": [
       "FastAPI",
       "HuggingFace Transformers",
       "RESTful APIs",
       "SOAP APIs",
       "Pydantic",
+      "OOP",
       "Git",
+      "Docker",
       "JSON"
     ],
     "interpersonal_skills": [
@@ -141,5 +256,55 @@
       "Communication",
       "Critical Thinking"
     ]
-  }
+  },
+  "certifications": [
+    {
+      "name": "AI Engineer Production Track: Deploy LLMs & Agents at Scale",
+      "issuer": "Udemy",
+      "date": "Feb 2026",
+      "link": "https://www.udemy.com/certificate/UC-0572ce4e-7c79-4ddd-b0b8-71e06641556f/"
+    },
+    {
+      "name": "The Complete Agentic AI Engineering",
+      "issuer": "Udemy",
+      "date": "Aug 2025",
+      "link": "https://www.udemy.com/certificate/UC-0572ce4e-7c79-4ddd-b0b8-71e06641556f/"
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "issuer": "Coursera (Andrew Ng)",
+      "date": "Jan 2025",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/UINR0PFSULBQ"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+      "issuer": "Oracle",
+      "date": "Jul 2024",
+      "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7034358BF6EA88905AB6BD33B1A5E55A0BCF2F944798F41E4373286246FA1E7C"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
+      "issuer": "Oracle",
+      "date": "Feb 2025",
+      "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=73147588C3E448E3AE8DF9CF7FC44C945E18C075FC6BFD0C5873FD6FC996902C"
+    },
+    {
+      "name": "Getting Started with Accelerated Computing in CUDA C/C++",
+      "issuer": "NVIDIA",
+      "date": "Jan 2025",
+      "link": "https://learn.nvidia.com/certificates?id=iRvv789RS7mAjyh00uIscg"
+    },
+    {
+      "name": "Google Data Analytics Specialization",
+      "issuer": "Google",
+      "date": "Jun 2024",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/FAFTQ93QEUC9"
+    },
+    {
+      "name": "IBM Data Science Professional Certificate",
+      "issuer": "IBM / Coursera",
+      "date": "Feb 2024",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/S76CPAF3A86K"
+    }
+  ]
 }
